@@ -43,7 +43,6 @@ body {
 }
 
 table {
-    table-layout: auto;
     width: 100%;
     padding: 10px;
     border: 2px solid black;
@@ -54,7 +53,7 @@ table {
 th{
     border: 1px solid black;
     text-align: center;
-    background-color:hsl(292, 85%, 77%);
+    background-color: hsl(292, 85%, 77%);
     color: black;
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -74,11 +73,11 @@ th{
 }
 
 code {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-weight: bold;
     color: black;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     width: 33%;
     margin: 1
 }
