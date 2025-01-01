@@ -19,7 +19,6 @@ body {
     background-position: top left;
     height: 240px;
     width: 100%;
-    display: flex;
 }
 
 .heading h1 {
@@ -32,7 +31,6 @@ body {
     opacity: 1;
     font-family: 'Chango', Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    display: flex;
 } 
 
 .heading p {
@@ -43,7 +41,6 @@ body {
     opacity: 1;
     text-align: center;
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
-    display: flex;
 }
 
 table {
@@ -54,11 +51,6 @@ table {
     border: 2px solid black;
     background-color: hsl(292, 77%, 88%);
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
-    overflow-x: auto;
-    overflow-y: auto;
-    word-wrap: break-word; 
-    overflow: scroll;
-    display: flex;
 }
 
 th{
@@ -71,7 +63,6 @@ th{
     padding: 10px;
     position: sticky;
     top: 0;
-    display: flex;
 }
 
  td{
@@ -82,7 +73,6 @@ th{
     padding: 1%;
     text-align: justify;
     border-collapse: collapse; 
-    display: flex;
 }
 
 code {
@@ -93,8 +83,6 @@ code {
     background-color:antiquewhite;
     width: 33%;
     margin: 1
-    word-wrap: break-word;
-    display: flex;
 }
 
 ul {
@@ -114,6 +102,5 @@ ol {
     position: fixed;
     bottom: 0;
     width: 100%;
-    display: flex;
 }
 
