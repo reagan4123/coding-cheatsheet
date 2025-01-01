@@ -50,15 +50,14 @@ table {
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
 }
 
-th {
+th{
+    border: 1px solid black;
     text-align: center;
-    background-color: hsl(292, 85%, 77%);
+    background-color:hsl(292, 85%, 77%);
     color: black;
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    padding: 10px 20px;
-    margin: 10px 20px;
-    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
 }
 
  td{
