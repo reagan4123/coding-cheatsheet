@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ @media (max-width: 768px) {
+        table { font-size: 12px; }
+        td { text-align: center; }
+    }
+
 body {
     width: 100%;
     max-width: 1000px;
