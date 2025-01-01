@@ -11,6 +11,8 @@ body {
     overflow: auto;
     background-color: #114a60;
     position: relative;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .heading {
