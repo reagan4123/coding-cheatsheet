@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     width: 100%;
     margin: 0 auto;
     overflow: auto;
@@ -44,7 +43,7 @@ body {
 
 table {
     table-layout: auto;
-    width: 90%;
+    width: 100%;
     padding: 10px;
     border: 2px solid black;
     background-color: hsl(292, 77%, 88%);
@@ -53,9 +52,8 @@ table {
 
 th{
     border: 1px solid black;
-    width: 30%
     text-align: center;
-    background-color: hsl(292, 85%, 77%);
+    background-color:hsl(292, 85%, 77%);
     color: black;
     font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -66,20 +64,22 @@ th{
 
  td{
     border: 1px solid black;
-    width: 30%;
+    width: 33%;
     overflow: scroll;
     margin: 1%;
     padding: 1%;
+    font-family: 'Raleway', Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
     text-align: justify;
-    border-collapse: collapse; 
+    border-collapse: collapse;  
 }
 
 code {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     font-size: 14px;
     font-weight: bold;
     color: black;
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     width: 33%;
     margin: 1
 }
@@ -102,4 +102,3 @@ ol {
     bottom: 0;
     width: 100%;
 }
-
