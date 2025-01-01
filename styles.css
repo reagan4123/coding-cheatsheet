@@ -24,7 +24,7 @@ body {
     width: 100%;
     padding-top: 10px;
     margin-bottom: 0;
-    color: rgb(251, 10, 243);
+    color: white;
     font-weight: bold;
     opacity: 1;
     font-family: 'Chango', Georgia, 'Times New Roman', Times, serif;
@@ -34,7 +34,7 @@ body {
 .heading p {
     font-size: 20px;
     padding: 50px 65px;
-    color: rgb(247, 26, 217);
+    color: white;
     font-weight: bold;
     opacity: 1;
     text-align: center;
