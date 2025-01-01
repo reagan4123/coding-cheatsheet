@@ -11,3 +11,5 @@ I would like to keep adding information such as CSS and Javascript because I hav
 - Vecteezy for a free video (linked in the page to take a user to the website).
 - FreePik for a free image (linked in the page to take a user to the website). 
 
+# Instructions
+There are no instructions to use this project.
