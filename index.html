@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Cheatsheet</title>
+    <link href="./reset.css" rel="reset">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chango&family=Delius+Swash+Caps&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1> My HTML Cheatsheet</h1>
+        <p>"I learned to always take on things I'd never done before. Growth and comfort do not exist." - Virgina Rommety</p>
+    </div>  
+    <div class="html">
+        <table>
+            <tr>
+                <th>HTML Tags</th>
+                <th>Notes</th>
+                <th>Output/Examples</th>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;DOCTYPE! html&gt;</code></pre></td>
+                <td>This doc type tag is important as it will always default to the most current HTML standard.</td>
+                <td>No output to display but it will always be the first code in an HTML file.</td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;html&gt; &lt;/html&gt;</code></pre></td>
+                <td>This tag is the root element of an HTML page because it adds the HTML structure to your webpage.</td>
+                <td>No output to display but it will always be the second code in an HTML file.</td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;head&gt; &lt;/head&gt;</code></pre></td>
+                <td>This tag contains meta-information about the HTML document such as the title of the page, links to CSS, and more.</td>
+                <td>No output to display but it will always be the third code in an HTML file.</td>
+                </td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;body&gt; &lt;/body&gt;</code></pre></td>
+                <td>This tag contains the content of the HTML document such as text, images, tables, and more.</td>
+                <td>No output to display but it will always be the fourth code in an HTML file.</td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;a href="URL or ./relative path" <br> target="_blank"/&gt;Insert text to display.&lt;/a&gt;</code></pre></td>
+                <td>Links are unique in that they have a self-closing tag. In this coding, I used an <em>anchor tag</em> that does require a closing tag, but I did this to show you how to utilize this coding as you are likely to use it. They require URLs and you can include target attributes to tell the browser how to open the link.</td>
+                <td><a href="https://www.vecteezy.com/free-videos/html" target="_blank">Link to Vecteezy</a> <span>who provided the free HTML video you can see below.</span></td>
+            </tr> 
+            <tr>
+                <td><pre><code>&lt;h1&gt; &lt;/h1&gt;</code></pre></td>
+                <td> Headings are tags that you will get very familiar with. They range from H1 (the largest) to H6 (the smallest).</td>
+                <td><h1>H1 example.</h1> <h2>H2 example.</h2><h3>H3 example.</h3><h4>H4 example.</h4><h5>H5 example.</h5><h6>H6 example.</h6></td>
+            </tr>  
+            <tr>
+                <td><pre><code>&lt;p&gt; &lt;p&gt;</code></pre></td>
+                <td>Paragraph tags are used to create blocks of text.</td>
+                <td>Paragraphs are great for chunks of text. Our next code will be better for smaller pieces of text.</td>
+            </tr> 
+            <tr>
+                <td><pre><code>&lt;span&gt; &lt;/span&gt;</code></pre></td>
+                <td>Span tags are great for smaller pieces of text. Say one sentence that you may want to call attention to out of a paragraph.</td>
+                <td>Out of a paragraph, you might want to call attention to something, such as pricing.<span>Aside tags may also be an option you want to consider.</span></td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;ul&gt; &lt;/ul&gt;</code></pre></td>
+                <td>Unordered list tags are necessary if you want to display a bulleted list of items. In order to add your bulleted list, you must include your list items with the &lt;li&gt; tags.</td>
+                <td><ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;ol&gt; &lt;/ol&gt;</code></pre></td>
+                <td>Ordered list tags are necessary if you want to display a numbered list of items. In order to add your numbered list, you must include your list items with the &lt;li&gt; tags.</td>
+                <td><ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol></td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;img src="URL or ./relative path" alt="insert<br>description" width="300" height="240" /&gt;</code></pre></td>
+                <td>Image tags are necessary if you want to display an image on your webpage. You must include the source of the image and an alt description for accessibility purposes.</td>
+                <td><img src="./bodyimage1.jpg" alt="example image of a girl thinking about coding." width="300" height="240" /></td>
+            <tr>
+                <td><pre><code>&lt;video src=“URL or ./relative path here”<br>width=“300” height=“240”<br>controls&gt;<br>Video not supported<br>&lt;/video&gt;</code></pre></td>
+                <td>Videos require opening and closing tags and attributes for sizing, controls (instructs the browser to include tools such as pausing/playing), and alternative text (video not displayed in the code below that only displays if the video fails to load).</td>
+                <td><video src= './vecteezy_html-hypertext-markup-language-letters-for-web-design-and_25388927.mp4' width="300" height="240"
+                controls>
+                Video not supported
+                </video>
+            </tr>
+            </table>
+    </div>
+    <div class="footer">
+        <p>Created by: Reagan Dolon | Codecademy Project (Work in Progress)</p>
+    </div>
+</body>
+</html>
